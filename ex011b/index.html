@@ -13,6 +13,15 @@
         <source media="(max-width: 1050px)" srcset="./imagens/foto-m.png" type="image/png">
         <img src="./imagens/foto-g.png" alt="imagem flexivel">
     </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="./midia/Marvins-Dance-Silent-Partner.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <!--vai tentar reproduzir as midias nessa ordem, caso nao consiga vai apresentar a mensagem-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio> <!--compativel mp3, ogg e wav-->
     <p>Você pode conhecer minha <a href="./pag002.html">segunda página</a></p>
 </head>
 <body>
